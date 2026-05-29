@@ -3,11 +3,11 @@ function Skills(){
     <section className="skills">
       <h2>Skills</h2>
       <div className="skills-grid">
-        <p className="skil-badge">HTML5/CSS3</p>
-        <p className="skil-badge">JavaScript</p>
-        <p className="skil-badge">React</p>
-        <p className="skil-badge">Node.js</p>
-        <p className="skil-badge">MySQL</p>
+        <p className="skill-badge">HTML5/CSS3</p>
+        <p className="skill-badge">JavaScript</p>
+        <p className="skill-badge">React</p>
+        <p className="skill-badge">Node.js</p>
+        <p className="skill-badge">MySQL</p>
       </div>
     </section>
   )

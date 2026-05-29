@@ -1,9 +1,15 @@
 function Contact(){
   return(
-    <section>
+    <section className="contact">
       <h2>Contact</h2>
-      <p>GitHub</p>
-      <p>お問い合わせ</p>
+      <div className="contact-links">
+        <a className="contact-link" href="#" target="_blank" rel="noreferrer">
+          GitHub
+        </a>
+        <a className="contact-link" href="#">
+          お問い合わせ
+        </a>
+      </div>
     </section>
   )
 }

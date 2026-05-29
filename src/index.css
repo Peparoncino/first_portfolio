@@ -106,3 +106,34 @@ section {
   font-size: 0.9rem;
   font-weight: 500;
 }
+
+/* Contact */
+.contact h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #1a1a2e;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  border: 2px solid #534ab7;
+  color: #534ab7;
+  transition: all 0.2s;
+}
+
+.contact-link:hover {
+  background: #534ab7;
+  color: #fff;
+}
