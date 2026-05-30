@@ -99,12 +99,25 @@ section {
 }
 
 .skill-badge {
-  background: #eeedfe;
-  color: #534ab7;
   padding: 0.5rem 1.25rem;
   border-radius: 999px;
   font-size: 0.9rem;
   font-weight: 500;
+}
+
+.front-lang {
+  background: #e1f5ee;
+  color: #0f6e56;
+}
+
+.back-lang {
+  background: #eeedfe;
+  color: #534ab7;
+}
+
+.others {
+  background: #faeeda;
+  color: #854f0b;
 }
 
 /* Contact */
