@@ -141,6 +141,91 @@ section {
   color: #854f0b;
 }
 
+/* works */
+.works h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #1a1a2e;
+}
+
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.work-card {
+  background: #fff;
+  border: 1px solid #e8e8ff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.work-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-card-icon {
+  font-size: 2rem;
+}
+
+.work-card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.work-card-desc {
+  font-size: 0.875rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.work-card-links {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.work-card-link {
+  color: #534ab7;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.work-card-link:hover {
+  color: #1a1a2e;
+}
+
+.work-card-techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.tech-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: #f0f0ff;
+  color: #534ab7;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+}
+
+.coming-soon {
+  background: #f8f9ff;
+  border: 1px dashed #c0bef0;
+}
+
 /* Contact */
 .contact h2 {
   font-size: 1.5rem;
