@@ -7,19 +7,19 @@ function Works(){
       <h2>Works</h2>
       <div className="works-grid">
         <div className="work-card">
-          <div className="work-card-header">
+          <p className="work-card-title">ポートフォリオサイト</p>
+          <p className="work-card-desc">このサイトが1本目の作品です。React / Vite で制作。</p>
+          <div className="work-card-techs">
+            <span className="tech-badge front-lang"><FaHtml5 />HTML5</span>
+            <span className="tech-badge front-lang"><FaCss3Alt />CSS3</span>
+            <span className="tech-badge front-lang"><FaReact />React</span>
+            <span className="tech-badge front-lang"><SiVite />Vite</span>
+          </div>
+          <div className="work-card-bottom">
             <div className="work-card-links">
               <a className="work-card-link" href="#" target="_blank" rel="noreferrer"><FaGithub size={20} /></a>
               <a className="work-card-link" href="#" target="_blank" rel="noreferrer"><FaArrowRight size={20} /></a>
             </div>
-          </div>
-          <p className="work-card-title">ポートフォリオサイト</p>
-          <p className="work-card-desc">このサイトが1本目の作品です。React / Vite で制作。</p>
-          <div className="work-card-techs">
-            <span className="tech-badge"><FaHtml5 /></span>
-            <span className="tech-badge"><FaCss3Alt /></span>
-            <span className="tech-badge"><FaReact /></span>
-            <span className="tech-badge"><SiVite /></span>
           </div>
         </div>
         <div className="work-card coming-soon">
