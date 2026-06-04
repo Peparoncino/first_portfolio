@@ -266,6 +266,16 @@ section {
   color: #fff;
 }
 
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-top: 1px solid #e8e8ff;
+  font-size: 0.875rem;
+  color: #888;
+}
+
 /* レスポンシブ */
 @media (max-width: 600px) {
 
