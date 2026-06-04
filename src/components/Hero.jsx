@@ -2,7 +2,7 @@ import profileImg from '../assets/profile.png'
 
 function Hero(){
   return(
-    <section className="hero">
+    <section className="hero" id='about'>
       <div className="hero-inner">
         <img src={profileImg} alt="プロフィール画像" className="hero-avatar" />
         <div className="hero-text">

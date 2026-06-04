@@ -3,7 +3,7 @@ import { SiVite } from "react-icons/si";
 
 function Works(){
   return(
-    <section className="works">
+    <section className="works" id="works">
       <h2>Works</h2>
       <div className="works-grid">
         <div className="work-card">

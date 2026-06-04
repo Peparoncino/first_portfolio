@@ -12,6 +12,10 @@ body {
   background: #f8f9ff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Header */
 header {
   background: #fff;
@@ -261,3 +265,41 @@ section {
   background: #534ab7;
   color: #fff;
 }
+
+/* レスポンシブ */
+@media (max-width: 600px) {
+
+  /* ナビ */
+  header nav ul {
+    gap: 1rem;
+  }
+
+  header nav span {
+    font-size: 1rem;
+  }
+
+  header nav ul a {
+    font-size: 0.8rem;
+  }
+
+  /* Hero */
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  /* Works */
+  .works-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

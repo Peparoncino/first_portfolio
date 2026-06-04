@@ -1,6 +1,6 @@
 function Skills(){
   return(
-    <section className="skills">
+    <section className="skills" id="skills">
       <h2>Skills</h2>
       <div className="skills-grid">
         <p className="skill-badge front-lang">HTML5/CSS3</p>

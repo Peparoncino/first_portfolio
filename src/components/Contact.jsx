@@ -3,7 +3,7 @@ import { CiMail } from "react-icons/ci";
 
 function Contact(){
   return(
-    <section className="contact">
+    <section className="contact" id="contact">
       <h2>Contact</h2>
       <div className="contact-links">
         <a className="contact-link" href="#" target="_blank" rel="noreferrer">
