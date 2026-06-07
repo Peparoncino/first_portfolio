@@ -6,9 +6,9 @@ function Hero(){
       <div className="hero-inner">
         <img src={profileImg} alt="プロフィール画像" className="hero-avatar" />
         <div className="hero-text">
-          <p className="subject">フォークリフトオペレーター</p>
+          <p className="subject">準備中...</p>
           <h2>エンジニア初学者</h2>
-          <p className="description">エンジニアを目指して学習中</p>
+          <p className="description">JavaScript / TypeScript を学習中...</p>
         </div>
       </div>
     </section>

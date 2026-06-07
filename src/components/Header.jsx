@@ -2,7 +2,7 @@ function Header(){
   return (
     <header>
       <nav>
-        <span>User</span>
+        <span>Peparoncino</span>
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#works">Works</a></li>

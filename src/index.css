@@ -145,6 +145,11 @@ section {
   color: #854f0b;
 }
 
+.learnings {
+  background: #f1ede8;
+  color: #5f5e5a;
+}
+
 /* works */
 .works h2 {
   font-size: 1.5rem;
