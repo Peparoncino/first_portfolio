@@ -6,7 +6,7 @@ function Contact(){
     <section className="contact" id="contact">
       <h2>Contact</h2>
       <div className="contact-links">
-        <a className="contact-link" href="#" target="_blank" rel="noreferrer">
+        <a className="contact-link" href="https://github.com/Peparoncino" target="_blank" rel="noreferrer">
           <FaGithub size={20} />
           {/* GitHub */}
         </a>
