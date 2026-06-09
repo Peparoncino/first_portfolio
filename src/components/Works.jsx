@@ -17,8 +17,8 @@ function Works(){
           </div>
           <div className="work-card-bottom">
             <div className="work-card-links">
-              <a className="work-card-link" href="#" target="_blank" rel="noreferrer"><FaGithub size={20} /></a>
-              <a className="work-card-link" href="#" target="_blank" rel="noreferrer"><FaArrowRight size={20} /></a>
+              <a className="work-card-link" href="https://first-portfolio-fawn-two.vercel.app/" target="_blank" rel="noreferrer"><FaGithub size={20} /></a>
+              <a className="work-card-link" href="https://first-portfolio-fawn-two.vercel.app/" target="_blank" rel="noreferrer"><FaArrowRight size={20} /></a>
             </div>
           </div>
         </div>
